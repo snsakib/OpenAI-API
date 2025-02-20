@@ -20,41 +20,41 @@ print(response)
 print(response.choices[0].message.content)
 
 # Response Structure
-ChatCompletion(
-    id='chatcmpl-B2VWOG01fku9Uhd5MJ8vzW4XdlXYP',
-    choices=[
-        Choice(
-            finish_reason='stop',
-            index=0,
-            logprobs=None,
-            message=ChatCompletionMessage(
-                content='ChatGPT was developed by OpenAI, an artificial intelligence research organization. OpenAI focuses on creating and promoting friendly AI for the benefit of humanity.',
-                refusal=None,
-                role='assistant',
-                audio=None,
-                function_call=None,
-                tool_calls=None)
-        )
-    ],
-    created=1739937524,
-    model='gpt-4o-mini-2024-07-18',
-    object='chat.completion',
-    service_tier='default',
-    system_fingerprint='fp_00428b782a',
-    usage=CompletionUsage(
-        completion_tokens=30,
-        prompt_tokens=12,
-        total_tokens=42,
-        completion_tokens_details=CompletionTokensDetails(
-            accepted_prediction_tokens=0,
-            audio_tokens=0,
-            reasoning_tokens=0,
-            rejected_prediction_tokens=0
-        ),
-        prompt_tokens_details=PromptTokensDetails(
-            audio_tokens=0,
-            cached_tokens=0
-        )
-    )
-)
+# ChatCompletion(
+#     id='chatcmpl-B2VWOG01fku9Uhd5MJ8vzW4XdlXYP',
+#     choices=[
+#         Choice(
+#             finish_reason='stop',
+#             index=0,
+#             logprobs=None,
+#             message=ChatCompletionMessage(
+#                 content='ChatGPT was developed by OpenAI, an artificial intelligence research organization. OpenAI focuses on creating and promoting friendly AI for the benefit of humanity.',
+#                 refusal=None,
+#                 role='assistant',
+#                 audio=None,
+#                 function_call=None,
+#                 tool_calls=None)
+#         )
+#     ],
+#     created=1739937524,
+#     model='gpt-4o-mini-2024-07-18',
+#     object='chat.completion',
+#     service_tier='default',
+#     system_fingerprint='fp_00428b782a',
+#     usage=CompletionUsage(
+#         completion_tokens=30,
+#         prompt_tokens=12,
+#         total_tokens=42,
+#         completion_tokens_details=CompletionTokensDetails(
+#             accepted_prediction_tokens=0,
+#             audio_tokens=0,
+#             reasoning_tokens=0,
+#             rejected_prediction_tokens=0
+#         ),
+#         prompt_tokens_details=PromptTokensDetails(
+#             audio_tokens=0,
+#             cached_tokens=0
+#         )
+#     )
+# )
 
